@@ -24,7 +24,7 @@ Y_dense = Y(X_dense)
 Y_tangent = tangent_line(X_dense)
 
 plt.plot(X_dense, Y_dense, label="Y(X) = 3X - X^2 + 1", color="blue")
-plt.plot(X_dense, Y_tangent, '--', label=f"Касательная в точке X({x_val:.2f})", color="red")
+plt.plot(X_dense, Y_tangent, '--', label=f"Касательная в точке (X;Y) : (15;{x_val:.2f})", color="red")
 
 plt.scatter([x_val], [y_val], color="green", zorder=5, label=f"Точка касания X({x_val:.2f})")
 
