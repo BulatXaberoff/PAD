@@ -6,7 +6,7 @@ X = np.random.uniform(-1, 4, 30)
 def Y(X):
     return 3*X - X**2 + 1
 
-x_val = X[15]
+x_val = 2
 y_val = Y(x_val)
 print(f"Значение функции в точке X(i=15): Y({x_val:.2f}) = {y_val:.2f}")
 
